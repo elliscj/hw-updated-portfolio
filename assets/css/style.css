@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(43, 43, 43);
   color: azure;
 }
 
@@ -50,9 +50,13 @@ img {
   margin: 10px;
 }
 
-a {
+.card a {
+  color: azure;
   display: block;
-  color: rgb(241, 251, 255);
+}
+
+a {
+  color: azure;
 }
 
 footer {
@@ -65,3 +69,6 @@ footer li {
   display: inline;
   margin: 15px;
 }
+
+/* https://bit.ly/elliscj-portfolio */
+/* https://www.linkedin.com/in/cameronje/ */

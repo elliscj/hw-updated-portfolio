@@ -15,22 +15,28 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Cameron Ellis: Junior Dev</title>
   </head>
   <body>
     <nav>
       <h1>Cameron J Ellis</h1>
       <ul>
-        <li>about me</li>
-        <li>projects</li>
-        <li>contact information</li>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Information</a>
+        </li>
       </ul>
     </nav>
 
     <div id="forcast" class="container">
       <div class="row">
-        <div>
-          <h2 id="projects">About Me</h2>
+        <div id="about-me">
+          <h2>About Me</h2>
         </div>
         <div class="col-12 card" id="about-me">
           <header>
@@ -59,15 +65,19 @@
           </p>
         </div>
       </div>
-      <div>
-        <h2 id="projects">Projects</h2>
+      <div id="projects">
+        <h2>Projects</h2>
       </div>
       <div class="row">
         <div class="col-12 card" id="brews">
           <header>
             <h3>Brews of Interest</h3>
-            <a href="https://elliscj.github.io/project-1/">Deployed Site</a>
-            <a href="https://github.com/elliscj/project-1">Github Repository</a>
+            <a href="https://elliscj.github.io/project-1/" target="_blank"
+              >Deployed Site</a
+            >
+            <a href="https://github.com/elliscj/project-1" target="_blank"
+              >Github Repository</a
+            >
           </header>
         </div>
       </div>
@@ -75,10 +85,14 @@
         <div class="day-0 col-12 col-md-6 card" id="weather">
           <header>
             <h3 class="date">Weather Dashboard</h3>
-            <a href="https://elliscj.github.io/hw6-weather-dashboard/"
+            <a
+              href="https://elliscj.github.io/hw6-weather-dashboard/"
+              target="_blank"
               >Deployed Site</a
             >
-            <a href="https://github.com/elliscj/hw6-weather-dashboard"
+            <a
+              href="https://github.com/elliscj/hw6-weather-dashboard"
+              target="_blank"
               >Github Repository</a
             >
           </header>
@@ -87,22 +101,32 @@
         <div class="day-0 col-12 col-md-6 card" id="quiz">
           <header>
             <h3 class="">JS Quiz</h3>
-            <a href="https://elliscj.github.io/hw4-WOTquiz/">Deployed Site</a>
-            <a href="https://github.com/elliscj/hw4-WOTquiz"
+            <a href="https://elliscj.github.io/hw4-WOTquiz/" target="_blank"
+              >Deployed Site</a
+            >
+            <a href="https://github.com/elliscj/hw4-WOTquiz" target="_blank"
               >Github Repository</a
             >
           </header>
         </div>
       </div>
     </div>
-    <footer class="contact-me">
+    <footer id="contact-me">
       <h4>Contact Me</h4>
       <ul class="contacts">
-        <li>email</li>
-        <li>phone</li>
-        <li>resume pdf</li>
-        <li>gihub</li>
-        <li>linkedin</li>
+        <li>elliscj@colorado.edu</li>
+        <li>(970)471-3119</li>
+        <li>
+          <a download="">Resume Pdf</a>
+        </li>
+        <li>
+          <a href="https://github.com/elliscj" target="_blank">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/cameronje/" target="_blank"
+            >Linkedin</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
