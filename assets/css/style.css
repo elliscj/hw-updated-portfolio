@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(28, 28, 28);
+  color: azure;
+}
+
+.card {
+  min-height: 200px;
+  background-color: rgb(6, 70, 72);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(6, 70, 72);
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(6, 70, 72);
+  margin: 20px;
+  padding: 20px;
+}
+
+#brews {
+  background-image: url("../images/Screen\ Shot\ 2021-11-22\ at\ 6.59.20\ PM.png");
+  background-position: center;
+  object-fit: contain;
+  background-blend-mode: hard-light;
+}
+
+#weather {
+  background-image: url("../images/weather-screenshot.png");
+  background-position: center;
+  background-blend-mode: hard-light;
+}
+
+#quiz {
+  background-image: url("../images/quiz-screenshot.png");
+  background-position: center;
+  background-blend-mode: hard-light;
+}
+
+img {
+  height: 250px;
+  object-fit: contain;
+  background-position: center;
+  margin: 10px;
+}
+
+a {
+  display: block;
+  color: rgb(241, 251, 255);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer li {
+  display: inline;
+  margin: 15px;
+}
