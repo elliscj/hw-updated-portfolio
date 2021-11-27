@@ -1,27 +1,47 @@
 body {
   background-color: rgb(43, 43, 43);
   color: azure;
+  background: url(../images/ronan-furuta-0xOG0Df1Re4-unsplash.jpg) no-repeat
+    center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .card {
   min-height: 200px;
-  background-color: rgb(6, 70, 72);
+  background-color: rgb(34, 65, 53);
+  /* border: 5px solid azure; */
+}
+
+nav li {
+  display: inline;
+  margin: 15px;
+}
+
+footer li {
+  display: inline;
+  margin: 15px;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(6, 70, 72);
+  background-color: rgb(34, 65, 53);
   margin: 20px;
   padding: 20px;
+  border-radius: 5px;
 }
 
 footer {
-  background-color: rgb(6, 70, 72);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(34, 65, 53);
   margin: 20px;
   padding: 20px;
+  border-radius: 5px;
 }
 
 #brews {
@@ -57,12 +77,6 @@ img {
 
 a {
   color: azure;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 footer li {
