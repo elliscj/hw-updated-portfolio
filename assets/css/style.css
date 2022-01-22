@@ -44,21 +44,21 @@ footer {
   border-radius: 5px;
 }
 
+#watch {
+  background-image: url("../images/watch-iT-smallscreenshot.png");
+  background-position: center;
+  /* object-fit: contain; */
+  background-blend-mode: hard-light;
+}
+
 #brews {
   background-image: url("../images/Screen\ Shot\ 2021-11-22\ at\ 6.59.20\ PM.png");
   background-position: center;
-  object-fit: contain;
   background-blend-mode: hard-light;
 }
 
 #weather {
   background-image: url("../images/weather-screenshot.png");
-  background-position: center;
-  background-blend-mode: hard-light;
-}
-
-#quiz {
-  background-image: url("../images/quiz-screenshot.png");
   background-position: center;
   background-blend-mode: hard-light;
 }
